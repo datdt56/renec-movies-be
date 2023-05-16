@@ -3,7 +3,7 @@
 Install & Run Server Locally
 ```
   yarn install
-  yarn dev
+  yarn start
 ```
 
 Test build on docker
