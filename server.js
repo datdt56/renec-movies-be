@@ -19,5 +19,5 @@ app.use(authMiddleware);
 app.post("/share-youtube-video", shareYoutubeVideo)
 
 app.listen(PORT, function () {
-    console.log('Server is running on Port:', PORT);
+    console.log('HTTP Server is running on Port:', PORT);
 });
