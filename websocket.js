@@ -4,6 +4,7 @@ const WEBSOCKET_PORT = process.env.WEBSOCKET_PORT || 8000;
 //  WebSocket server
 const wss = new WebSocketServer({ port: WEBSOCKET_PORT });
 const clients = new Set()
+console.log("websocket server")
 wss.on('error', console.error);
 
 wss.on('open', function open() {
