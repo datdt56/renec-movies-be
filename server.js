@@ -4,6 +4,8 @@ const bodyParser = require('body-parser');
 const authMiddleware = require("./common/authMiddleware");
 const shareYoutubeVideo = require("./controller/shareYoutubeVideo");
 const PORT = process.env.PORT || 8080;
+
+// HTTP server
 const app = express();
 
 app.use(bodyParser.json({limit: '10mb'}));
