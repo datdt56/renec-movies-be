@@ -12,7 +12,7 @@ Test build on docker
 
 - Build docker images command: docker build -t [Your docker name] .
 
-- Run docker images command: docker run -p 8080:8080 -p 8000:8000 [Your docker name]
+- Run docker images command: docker run -p 8080:8080 [Your docker name]
 
 - List images : docker images
 ```
