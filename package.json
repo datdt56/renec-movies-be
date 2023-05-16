@@ -1,0 +1,25 @@
+{
+  "name": "cloud-functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "datdt56",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^6.5.0",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "ytdl-core": "^4.11.4"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
