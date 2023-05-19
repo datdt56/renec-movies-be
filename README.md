@@ -6,6 +6,11 @@ Install & Run Server Locally
   yarn start
 ```
 
+Run tests:
+```
+  yarn test
+```
+
 Test build on docker
 ```
 - Install docker: https://docs.docker.com/get-docker/

@@ -35,3 +35,5 @@ app.post("/share-youtube-video", shareYoutubeVideo)
 server.listen(PORT, function () {
     console.log('Server is running on Port:', PORT);
 });
+
+module.exports = server
