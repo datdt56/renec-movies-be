@@ -1,4 +1,5 @@
 # renec-movies-be
+Database: Cloud Firestore - Firebase
 
 Install & Run Server Locally
 ```
